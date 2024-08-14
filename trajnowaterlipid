@@ -1,0 +1,21 @@
+### strip out water and lipid molecules from trajectory files --> smaller size ###
+#!/bin/sh
+for i in $(seq 0 1 19)
+do
+cd run${i}
+file=md01.dcd
+dir=/home/mahinthp/paween/software/catdcd-exe
+if test -s $file
+   then 
+       echo "$file exist"
+       $dir -o traj.dcd -i ../../../prep_17aag/prot-index.txt md00.dcd $file 
+   else
+       echo "$file none"
+       $dir -o traj.dcd -i ../../../prep_17aag/prot-index.txt md00.dcd
+fi 
+
+cd ../
+
+done
+
+ 
