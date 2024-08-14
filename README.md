@@ -14,5 +14,5 @@ Steps (after completing metadynamics simulations):
 1) python exittime.py (get first frame when the ligand reached the protein surface)
 2) (optional) ./trajnowaterlipid (decrease the size of trajectory files by stripping out water and lipids molecules)
 3) vmd -dispdev text -e loadframe.tcl (write new trajectory files for analysis)
-4) ./runplumed (unbiasing and reweighting using PLUMED: accelerated time --> real time)
+4) ./runplumed (unbiasing and reweighting using PLUMED: accelerated time --> real time; reweighted free energy profiles)
 5) python residencetime.py (compute residence times)
