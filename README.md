@@ -8,7 +8,7 @@ Software: VMD and PLUMED (visualization and analysis) ; NAMD with Colvars Module
 
 Required files: PDB (coordinates) and PSF (structural info); MD simulation trajectories (e.g., dcd, nc, or xtc formats)
 
-Notes: In each individual run files, you need to change or specific paths to data or trajectories yourself.
+Notes: This is just an example from one of simulation sets. You need to go into each individual files to change or specify paths to data or trajectories yourself.
 
 Steps (after completing metadynamics simulations):
 1) python exittime.py (get first frame when the ligand reached the protein surface)
