@@ -16,3 +16,7 @@ Steps (after completing metadynamics simulations):
 3) vmd -dispdev text -e loadframe.tcl (write new trajectory files for analysis)
 4) ./runplumed (unbiasing and reweighting using PLUMED: accelerated time --> real time; reweighted free energy profiles)
 5) python residencetime.py (compute residence times)
+
+
+# Acknowledgements: 
+The work is a part of projects in Dr. Yanxin Liu's group at the University of Maryland, College Park (https://blog.umd.edu/liu)
