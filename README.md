@@ -4,14 +4,14 @@ Postprocessing analysis of metadynamics simulation data to estimate protein-liga
 Workflows
 Multiple metadynamics simulations (before this analysis) --> Post-processing --> Unbiased dissociation times (PLUMED) --> Fitting for residence times
 
-Software: VMD and PLUMED (visualization and analysis) ; NAMD with Colvars Modules (MD simulations)
+Required software: VMD and PLUMED (visualization and analysis) ; NAMD with Colvars Modules (MD simulations)
 
 Required files: PDB (coordinates) and PSF (structural info); MD simulation trajectories (e.g., dcd, nc, or xtc formats)
 
 Notes: This is just an example from one of simulation sets. You need to go into each individual files to change or specify paths to data or trajectories yourself.
 
 Steps (after completing metadynamics simulations):
-1) python exittime.py (get first frame when the ligand reached the protein surface)
+1) python exittime.py (get the first time frame when the ligand reached the protein surface)
 2) (optional) ./trajnowaterlipid (decrease the size of trajectory files by stripping out water and lipids molecules)
 3) vmd -dispdev text -e loadframe.tcl (write new trajectory files for analysis)
 4) ./runplumed (unbiasing and reweighting using PLUMED: accelerated time --> real time; reweighted free energy profiles)
