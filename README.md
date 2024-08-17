@@ -14,6 +14,7 @@ Postprocessing analysis of metadynamics simulation data to estimate protein-liga
 **Required files:** <br/>
 -PDB (coordinates) <br/>
 -PSF (structural info) <br/>
+-Force field parameter files for MD simulations (i.e., CHARMM) (https://mackerell.umaryland.edu/charmm_ff.shtml) <br/>
 -MD simulation trajectories (e.g., dcd, nc, or xtc formats)
 
 **Examples of metadynamics simulations files:** <br/>
