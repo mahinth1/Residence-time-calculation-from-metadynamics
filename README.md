@@ -3,7 +3,7 @@ Postprocessing analysis of metadynamics simulation data to estimate protein-liga
 
 **Goals:**
 - To expedite the dissociation process of a ligand from a protein <br/>
-- To obtain dissociation kinetic parameter (residence time)
+- To estimate dissociation kinetic parameter (residence time) which has been found implicated in the duration of pharmacological action and efficacy of drugs.
 
 **Workflows:** 
 1) Running multiple metadynamics simulations (before this analysis)
@@ -50,4 +50,4 @@ Coordination numbers between the ligand and the binding pocket residues were use
 - P. Mahinthichaichan, R. Liu, Q. N. Vo., C. R. Ellis, L. Stavitskaya, J. Shen. Structure-kinetics relationships of opioids from molecular dynamics simulations and machine learning. J. Chem. Info. Model. 2023, 63, 2196-2206.
 
 # Acknowledgements: 
-The work is currently a part of projects in Dr. Yanxin Liu's group at the University of Maryland, College Park (https://blog.umd.edu/liu), and was started during my ORISE fellowship (2020-2023) with the FDA and University of Maryland, Baltimore.
+The work is currently a part of projects in Dr. Yanxin Liu's group at the University of Maryland, College Park (https://blog.umd.edu/liu), and was started during my ORISE fellowship (2020-2023) with the FDA and University of Maryland, Baltimore (Dr. Jana Shen's group).
