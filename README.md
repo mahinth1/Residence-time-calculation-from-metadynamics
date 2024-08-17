@@ -23,6 +23,8 @@ simulation_files --> metad
 
 Notes: This are just examples from one of simulation sets. You need to go into each individual files to change or specify paths to data or trajectories yourself.
 
+![img294](https://github.com/user-attachments/assets/5b90ef88-613f-493e-911a-bebaf26af288)
+
 **Postprocessing analysis steps (after completing metadynamics simulations):**
 1) python exittime.py (get the first time frame when the ligand reached the protein surface)
 2) (optional) ./trajnowaterlipid (decrease the size of trajectory files by stripping out water and lipids molecules)
