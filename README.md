@@ -45,4 +45,4 @@ Coordination numbers between the ligand and the binding pocket residues were use
 - P. Mahinthichaichan, R. Liu, Q. N. Vo., C. R. Ellis, L. Stavitskaya, J. Shen. Structure-kinetics relationships of opioids from molecular dynamics simulations and machine learning. J. Chem. Info. Model. 2023, 63, 2196-2206.
 
 # Acknowledgements: 
-The work is a part of projects in Dr. Yanxin Liu's group at the University of Maryland, College Park (https://blog.umd.edu/liu). 
+The work is currently a part of projects in Dr. Yanxin Liu's group at the University of Maryland, College Park (https://blog.umd.edu/liu), and was started during my ORISE fellowship (2020-2023) with the FDA and University of Maryland, Baltimore.
