@@ -1,8 +1,4 @@
-
-#for {set f 0 } {$f < 3} {incr f} {
-
-#mol load psf /scratch/Liu_Group/paween/hsp90/hsp90/1yet_unsat/prep_17aag/boundnowater.psf
-#mol addfile ./run${f}/rewrap.dcd waitfor all 
+##calculate solvent accessible surface area of ligand (e.g. AAG)
 set n [molinfo top get numframes]
 set o [open ./run${f}/sasalig.dat w]
 
@@ -16,5 +12,3 @@ for {set i 0} {$i < $n} {incr i} {
 	puts $o "$i $sasa $sasalig $norm"
 }
 close $o
-#mol delete all
-#} 
