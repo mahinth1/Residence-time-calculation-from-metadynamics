@@ -1,28 +1,28 @@
 # Residence time calculation from metadynamics
 Postprocessing analysis of metadynamics simulation data to estimate protein-ligand complex residence times
 
-Workflows: 
+**Workflows:** 
 1) Running multiple metadynamics simulations (before this analysis)
 2) Post-processing
 3) Obtaining unbiased dissociation times from each trajectory using PLUMED
 4) Fitting for residence times based on cummulative Poisson distribution
 
-Required software: <br/>
+**Required software:** <br/>
 -VMD and NAMD (ks.uiuc.edu) <br/>
 -PLUMED (https://www.plumed.org)
 
-Required files: <br/>
+**Required files:** <br/>
 -PDB (coordinates) <br/>
 -PSF (structural info) <br/>
 -MD simulation trajectories (e.g., dcd, nc, or xtc formats)
 
-Examples of metadynamics simulations files: <br/>
+**Examples of metadynamics simulations files:** <br/>
 simulation_files --> prep <br/>
 simulation_files --> metad
 
-Notes: This is just an example from one of simulation sets. You need to go into each individual files to change or specify paths to data or trajectories yourself.
+Notes: This are just examples from one of simulation sets. You need to go into each individual files to change or specify paths to data or trajectories yourself.
 
-Postprocessing analysis steps (after completing metadynamics simulations):
+**Postprocessing analysis steps (after completing metadynamics simulations):**
 1) python exittime.py (get the first time frame when the ligand reached the protein surface)
 2) (optional) ./trajnowaterlipid (decrease the size of trajectory files by stripping out water and lipids molecules)
 3) vmd -dispdev text -e loadframe.tcl (write new trajectory files for analysis)
