@@ -15,7 +15,7 @@ Postprocessing analysis of metadynamics simulation data to estimate protein-liga
 
 **Required software:** <br/>
 -VMD and NAMD (https://www.ks.uiuc.edu) <br/>
--PLUMED (https://www.plumed.org)
+-PLUMED (https://www.plumed.org) <br/>
 -Python (pandas and numpy)
 
 **Required files:** <br/>
