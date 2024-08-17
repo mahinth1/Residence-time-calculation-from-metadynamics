@@ -7,6 +7,8 @@ Postprocessing analysis of metadynamics simulation data to estimate protein-liga
 3) Obtaining unbiased dissociation times from each trajectory using PLUMED
 4) Fitting for residence times based on cummulative Poisson distribution
 
+![image](https://github.com/user-attachments/assets/969f45ca-db7d-42b5-9bf2-af62bf036d94)
+
 **Required software:** <br/>
 -VMD and NAMD (ks.uiuc.edu) <br/>
 -PLUMED (https://www.plumed.org)
