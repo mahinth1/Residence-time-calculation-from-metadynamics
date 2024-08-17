@@ -1,0 +1,38 @@
+
+colvarsTrajFrequency 5000
+colvarsRestartFrequency 5000
+
+##coordination number between ligand (AAG) and binding pocket residues
+colvar {
+name CN
+lowerBoundary 0 
+upperBoundary 800 
+lowerWall 0
+upperWall 800 
+lowerwallconstant 100
+upperwallconstant 100
+width 10 
+coordNum {
+group1 { atomsFile metad.pdb 
+	 atomsCol B
+	 atomsColValue 1 } 
+group2 { atomsFile metad.pdb
+         atomsCol B
+         atomsColValue 2 }
+cutoff 4.5
+expNumer 8
+expDenom 12
+}
+} 
+
+
+metadynamics {
+colvars CN 
+hillWeight 0.3
+hillWidth 1
+newHillFrequency 5000
+wellTempered on
+biasTemperature 4340
+writeHillsTrajectory on
+}
+
