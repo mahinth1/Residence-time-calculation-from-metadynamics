@@ -7,12 +7,14 @@ Required software: <br/>
 -VMD and NAMD (ks.uiuc.edu) <br/>
 -PLUMED (https://www.plumed.org)
 
-Required files: 
--PDB (coordinates) 
--PSF (structural info)
+Required files: <br/>
+-PDB (coordinates) <br/>
+-PSF (structural info) <br/>
 -MD simulation trajectories (e.g., dcd, nc, or xtc formats)
 
-Examples of metadynamics simulations files: simulation_files --> prep ; simulation_files --> metad
+Examples of metadynamics simulations files: <br/>
+simulation_files --> prep <br/>
+simulation_files --> metad
 
 Notes: This is just an example from one of simulation sets. You need to go into each individual files to change or specify paths to data or trajectories yourself.
 
