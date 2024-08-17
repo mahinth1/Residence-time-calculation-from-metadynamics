@@ -6,7 +6,6 @@ Postprocessing analysis of metadynamics simulation data to estimate protein-liga
 2) Post-processing
 3) Obtaining unbiased dissociation times from each trajectory using PLUMED
 4) Fitting for residence times based on cummulative Poisson distribution
-
 ![image](https://github.com/user-attachments/assets/6f49dc90-0724-4b89-8af9-bff4d7a4e0c5)
 
 
