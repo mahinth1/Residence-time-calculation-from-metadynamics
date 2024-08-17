@@ -2,7 +2,7 @@
 Postprocessing analysis of metadynamics simulation data to estimate protein-ligand complex residence times
 
 Workflows: 
-1) Running uultiple metadynamics simulations (before this analysis)
+1) Running multiple metadynamics simulations (before this analysis)
 2) Post-processing
 3) Obtaining unbiased dissociation times from each trajectory using PLUMED
 4) Fitting for residence times based on cummulative Poisson distribution
