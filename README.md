@@ -2,6 +2,7 @@
 Postprocessing analysis of metadynamics simulation data to estimate protein-ligand complex residence times
 
 **Goals:**
+- To identify patterns underlying protein-ligand interactions, binding and dissociation processes <br/>
 - To expedite the dissociation process of a ligand from a protein <br/>
 - To estimate dissociation kinetic parameter (residence time) which has been found implicated in the duration of pharmacological action and efficacy of drugs.
 
@@ -39,7 +40,8 @@ Coordination numbers between the ligand and the binding pocket residues were use
 2) (optional) Generate new trajectory files with reduced size by stripping out water and lipid molecules: ./trajnowaterlipid (
 3) Write new trajectory files for analysis (ended at the frame when ligand exited): vmd -dispdev text -e loadframe.tcl 
 4) Unbiasing and reweighting using PLUMED (accelerated time --> real time; reweighted free energy profiles): ./runplumed (need to edit "accel0.txt")
-5) Fitting for residence time: python residencetime.py 
+5) Fitting for residence time: python residencetime.py
+
 
 # References:
 - Tiwary, P.; Parrinello, M. From Metadynamics to Dynamics. Phys. Rev. Lett. 2013, 111, 230602.
