@@ -3,8 +3,8 @@ Postprocessing analysis of metadynamics simulation data to estimate protein-liga
 
 Workflows: Multiple metadynamics simulations (before this analysis) --> Post-processing --> Unbiased dissociation times (PLUMED) --> Fitting for residence times
 
-Required software: 
--VMD and NAMD (ks.uiuc.edu)
+Required software: <br/>
+-VMD and NAMD (ks.uiuc.edu) <br/>
 -PLUMED (https://www.plumed.org)
 
 Required files: 
