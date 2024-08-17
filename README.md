@@ -1,6 +1,10 @@
 # Residence time calculation from metadynamics
 Postprocessing analysis of metadynamics simulation data to estimate protein-ligand complex residence times
 
+**Goals:**
+- To expedite the dissociation process of a ligand from a protein <br/>
+- To obtain dissociation kinetic parameter (residence time)
+
 **Workflows:** 
 1) Running multiple metadynamics simulations (before this analysis)
 2) Post-processing
