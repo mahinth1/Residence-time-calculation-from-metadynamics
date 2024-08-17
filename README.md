@@ -9,8 +9,10 @@ Required software: VMD and PLUMED (visualization and analysis) ; NAMD with Colva
 Required files: PDB (coordinates) and PSF (structural info); MD simulation trajectories (e.g., dcd, nc, or xtc formats)
 
 Metadynamics simulations (files)
-simulation_files --prep
-                 --metad
+
+simulation_files 
+--prep
+--metad
 
 Notes: This is just an example from one of simulation sets. You need to go into each individual files to change or specify paths to data or trajectories yourself.
 
