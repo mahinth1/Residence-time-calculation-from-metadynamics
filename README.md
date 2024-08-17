@@ -16,6 +16,7 @@ Postprocessing analysis of metadynamics simulation data to estimate protein-liga
 **Required software:** <br/>
 -VMD and NAMD (https://www.ks.uiuc.edu) <br/>
 -PLUMED (https://www.plumed.org)
+-Python (pandas and numpy)
 
 **Required files:** <br/>
 -PDB (coordinates) <br/>
@@ -34,11 +35,11 @@ Coordination numbers between the ligand and the binding pocket residues were use
 ![img294](https://github.com/user-attachments/assets/5b90ef88-613f-493e-911a-bebaf26af288)
 
 **Postprocessing analysis steps (after completing metadynamics simulations):**
-1) python exittime.py (get the first time frame when the ligand reached the protein surface)
-2) (optional) ./trajnowaterlipid (decrease the size of trajectory files by stripping out water and lipids molecules)
-3) vmd -dispdev text -e loadframe.tcl (write new trajectory files for analysis)
-4) ./runplumed (unbiasing and reweighting using PLUMED: accelerated time --> real time; reweighted free energy profiles)
-5) python residencetime.py (fitting for residence times)
+1) Get the first time frame when the ligand reached the protein surface: python exittime.py
+2) (optional) Generate new trajectory files with reduced size by stripping out water and lipid molecules: ./trajnowaterlipid (
+3) Write new trajectory files for analysis (ended at the frame when ligand exited): vmd -dispdev text -e loadframe.tcl 
+4) Unbiasing and reweighting using PLUMED (accelerated time --> real time; reweighted free energy profiles): ./runplumed (need to edit "accel0.txt")
+5) Fitting for residence time: python residencetime.py 
 
 # References:
 - Tiwary, P.; Parrinello, M. From Metadynamics to Dynamics. Phys. Rev. Lett. 2013, 111, 230602.
