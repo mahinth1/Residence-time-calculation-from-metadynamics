@@ -3,9 +3,14 @@ Postprocessing analysis of metadynamics simulation data to estimate protein-liga
 
 Workflows: Multiple metadynamics simulations (before this analysis) --> Post-processing --> Unbiased dissociation times (PLUMED) --> Fitting for residence times
 
-Required software: VMD and PLUMED (visualization and analysis) ; NAMD with Colvars Modules (MD simulations)
+Required software: 
+-VMD and NAMD (ks.uiuc.edu)
+-PLUMED (https://www.plumed.org)
 
-Required files: PDB (coordinates) and PSF (structural info); MD simulation trajectories (e.g., dcd, nc, or xtc formats)
+Required files: 
+-PDB (coordinates) 
+-PSF (structural info)
+-MD simulation trajectories (e.g., dcd, nc, or xtc formats)
 
 Examples of metadynamics simulations files: simulation_files --> prep ; simulation_files --> metad
 
