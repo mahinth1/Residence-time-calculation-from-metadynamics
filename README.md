@@ -10,7 +10,7 @@ Postprocessing analysis of metadynamics simulation data to estimate protein-liga
 
 
 **Required software:** <br/>
--VMD and NAMD (ks.uiuc.edu) <br/>
+-VMD and NAMD (https://www.ks.uiuc.edu) <br/>
 -PLUMED (https://www.plumed.org)
 
 **Required files:** <br/>
@@ -25,7 +25,7 @@ simulation_files --> metad
 
 Notes: This are just examples from one of simulation sets. You need to go into each individual files to change or specify paths to data or trajectories yourself.
 
-Coordination numbers between the ligand and the binding pocket residues were used in the examples, calculated based on this formula:
+Coordination numbers between the ligand and the binding pocket residues were used in the examples, calculated based on this formula (https://www.ks.uiuc.edu/Research/namd/2.14/ug/node53.html):
 ![img294](https://github.com/user-attachments/assets/5b90ef88-613f-493e-911a-bebaf26af288)
 
 **Postprocessing analysis steps (after completing metadynamics simulations):**
