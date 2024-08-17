@@ -3,7 +3,7 @@ for i in $(seq 0 1 19)
 do
 cd run${i}
 
-plumed driver --plumed ../plumed/accel0.txt --mc /scratch/Liu_Group/paween/hsp90/hsp90/1yet_unsat/prep_17aag/mc.txt --mf_dcd rewrap.dcd
+plumed driver --plumed ../plumed/accel0.txt --mc ../plumed/mc.txt --mf_dcd rewrap.dcd
 
 plumed sum_hills --min 0 --max 850 --bin 85 --hills dzhills --mintozero --sigma 5 --kt 0.6138 --outfile pmf.dat
 
