@@ -47,6 +47,7 @@ Coordination numbers between the ligand and the binding pocket residues were use
 - Tiwary, P.; Parrinello, M. From Metadynamics to Dynamics. Phys. Rev. Lett. 2013, 111, 230602.
 - Barducci, A.; Bussi, G.; Parrinello, M. Well-Tempered Metadynamics: A Smoothly Converging and Tunable Free-Energy Method. Phys. Rev. Lett. 2008, 100, 020603.
 - Tiwary, P.; Parinnello, M. A Time-Independent Free Energy Estimator from Metadynamics. J. Phys. Chem. B. 2015, 119, 736-742.
+- Ray, D.; Parrinello, M. Kinetics from Metadynamics: Principles, Applications, and Outlook. J. Chem. Theory. Comput. 2023, 19, 5649-5670.
 - Salvalaglio, M.; Tiwary, P.; Parrinello, M. Assessing the Reliability of the Dynamics Reconstructed from Metadynamics. J. Chem. Theory Comput. 2014, 10, 1420-1425.
 - Tribello, G. A.; Bonomi, M.; Branduardi, D.; Camilloni, C.; Bussi, G. PLUMED 2: New Feathers for an Old Bird. Comput. Phys. Commun. 2014, 185, 604-613.
 - Fiorin, G.; Klein, M. L.; Hénin, J. Using Collective Variables to Drive Molecular Dynamics Simulations. Mol. Phys. 2013, 111, 3345-3362.
